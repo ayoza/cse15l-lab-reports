@@ -3,7 +3,7 @@
 # Heading 1
 ## Heading 2
 [Link](http://a.com)
-![Image](https://github.com/ayoza/cse15l-lab-reports/blob/457941cbcbd5d4a3424582b6cecc07904d824341/Screen%20Shot%202022-01-12%20at%203.45.15%20PM.png)
+![Image](https://ayoza.github.io/cse15l-lab-reports/Screen%20Shot%202022-01-12%20at%203.45.15%20PM.png)
 > Blockquote
 * List
 * List
