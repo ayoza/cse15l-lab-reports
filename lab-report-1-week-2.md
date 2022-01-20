@@ -14,7 +14,7 @@
 
 # Step 3 - Run Some Commands
 * Try to run a command once logged in.
-* cd, ls, pwd, mkdir, and cp are all options to test.
+* `cd`, `ls`, `pwd`, `mkdir`, and `cp` are all options to test.
 * Command + D will log you out.
 * Typing the "exit" command will also log you out.
 
