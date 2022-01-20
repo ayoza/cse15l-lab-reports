@@ -1,11 +1,11 @@
 # Step 1 - Visual Studio Code
-* Go to https://code.visualstudio.com/ and follow the steps to download.
+* Go to the [VSCode Website](https://code.visualstudio.com/) and follow the steps to download.
 * Open the application and a window like below should open.
 
 ![Image](https://ayoza.github.io/cse15l-lab-reports/LR1_1.png)
 
 # Step 2 - Remotely Connecting
-* Find your course specific account on https://sdacs.ucsd.edu/~icc/index.php
+* Find your course specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
 * Open terminal on VSCode and type $ ssh cs15lwi22zz@ieng6.ucsd.edu but replace the "zz" with your course-specific account letters.
 * Respond with "yes" to the following question.
 * Then enter your password to log in.
@@ -38,6 +38,6 @@
 # Step 6 - Making Remote Running Even More Pleasant
 * There are other shortcuts that make remote connecting much quicker and easier.
 * $ ssh cs15lwi22zz@ieng6.ucsd.edu "ls" will login and run the command then logout.
-* $ ssh cs15lwi22zz@ieng6.ucsd.edu "javac [file].java; java [class]" logina and run the java file then logout.
+* $ ssh cs15lwi22zz@ieng6.ucsd.edu "javac [file].java; java [class]" login and run the java file then logout.
 
 ![Image](https://ayoza.github.io/cse15l-lab-reports/LR1_6.png)
