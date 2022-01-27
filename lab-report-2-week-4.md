@@ -1,20 +1,20 @@
 # Week 4 Lab Report 2
 
 ## Original Markdown File
-![Image](lr2og)
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_OG.png)
 ## Code Change #1
 
-Screenshot of the code change diff 
+### Code Change
 
-![Image](lr2cc1)
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_CC1.png)
 
-Link to the test file for a failure-inducing input 
+### Link to the Test File
 
-[test-file2]
+[test-file2](https://github.com/ayoza/markdown-parse/blob/main/test-file2.md?plain=1)
 
-Screenshot of output for the error 
+### Screenshot of the Output Error
 
-![Image](lr2output1)
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_OUTPUT1.png)
 
 ### Description
 
@@ -22,17 +22,18 @@ The issue is that the test never actually outputted a failure which means the pr
 
 
 ## Code Change #2
-Screenshot of the code change diff 
 
-![Image](lr2cc2)
+### Code Change
 
-Link to the test file for a failure-inducing input 
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_CC2.png)
 
-[test-file5]
+### Link to the Test File
 
-Screenshot of output for the error 
+[test-file5](https://github.com/ayoza/markdown-parse/blob/main/test-file5.md?plain=1)
 
-![Image](lr2output2)
+### Screenshot of the Output Error
+
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_OUTPUT2.png)
 
 ### Description
 
@@ -40,17 +41,18 @@ The program picks up a non-link string because it is in parentheses and after an
 
 
 ## Code Change #3
-### Screenshot of the code change diff 
 
-![Image](lr2cc3)
+### Code Change
 
-### Link to the test file for a failure-inducing input 
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_CC3.png)
 
-[test-file8]
+### Link to the Test File
 
-### Screenshot of output for the error 
+[test-file8](https://github.com/ayoza/markdown-parse/blob/main/test-file8.md?plain=1)
 
-![Image](lr2output3)
+### Screenshot of the Output Error
+
+![Image](https://raw.githubusercontent.com/ayoza/cse15l-lab-reports/main/Lab%20Report%202%20SS/LR2_OUTPUT3.png)
 
 ### Description
 
