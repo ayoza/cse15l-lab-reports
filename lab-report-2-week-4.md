@@ -1,10 +1,57 @@
-Week 4 Lab Report
-Pick three code changes that your group worked on in labs 3 and 4 in order to fix a bug; these should be stored as commits on someone’s repository. Fork the repository so you have your own copy with all the work your group did if you haven’t already.
+# Week 4 Lab Report 2
 
-For each of the three code changes:
+## Original Markdown File
+![Image](lr2og)
+## Code Change #1
 
-* Show a screenshot of the code change diff from Github (a page like this)
-* Link to the test file for a failure-inducing input that prompted you to make that change
-* Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
-* Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
-* You will submit this to the week 4 lab report assignment on Gradescope, which will have a similar process to the first lab report for grading.
+Screenshot of the code change diff 
+
+![Image](lr2cc1)
+
+Link to the test file for a failure-inducing input 
+
+[test-file2]
+
+Screenshot of output for the error 
+
+![Image](lr2output1)
+
+### Description
+
+The issue is that the test never actually outputted a failure which means the program is stuck in an infinite loop. Because there is text after the last link, the program is never able to exit the loop because the `currentIndex` that must increase to the `markdown.length` for the loop to end will no longer increase. Therefore we must change the continuation condition to fix the error.
+
+
+## Code Change #2
+Screenshot of the code change diff 
+
+![Image](lr2cc2)
+
+Link to the test file for a failure-inducing input 
+
+[test-file5]
+
+Screenshot of output for the error 
+
+![Image](lr2output2)
+
+### Description
+
+The program picks up a non-link string because it is in parentheses and after an open and close bracket. The fix is to make sure that the parentheses come immediatel after the closed bracket.
+
+
+## Code Change #3
+### Screenshot of the code change diff 
+
+![Image](lr2cc3)
+
+### Link to the test file for a failure-inducing input 
+
+[test-file8]
+
+### Screenshot of output for the error 
+
+![Image](lr2output3)
+
+### Description
+
+The issue was that there was a bracket with no content and a parentheses with content immediately after and the program read the content within the parentheses as a link and added it to the ArrayList. I fixed this by ensuring that the close bracket did not come immediately after the open bracket.
